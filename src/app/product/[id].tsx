@@ -1,11 +1,11 @@
 import { NativeStackScreenProps } from '@react-navigation/native-stack';
 import { Image, ScrollView, StyleSheet, Text, View } from 'react-native';
-import FavoriteButton from '../components/FavoriteButton';
-import Header from '../components/Header';
-import StateView from '../components/StateView';
-import { useProduct } from '../hooks/useProducts';
-import { RootStackParamList } from '../navigation/types';
-import { colors } from '../theme';
+import FavoriteButton from '../../components/FavoriteButton';
+import Header from '../../components/Header';
+import StateView from '../../components/StateView';
+import { useProduct } from '../../hooks/useProducts';
+import { RootStackParamList } from '../../navigation/types';
+import { colors } from '../../theme';
 
 type Props = NativeStackScreenProps<RootStackParamList, 'ProductDetail'>;
 

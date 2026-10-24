@@ -1,10 +1,10 @@
 import { useNavigation } from '@react-navigation/native';
 import { FlatList, RefreshControl, StyleSheet, View } from 'react-native';
-import Header from '../components/Header';
-import ProductCard from '../components/ProductCard';
-import StateView from '../components/StateView';
-import { useProducts } from '../hooks/useProducts';
-import { colors } from '../theme';
+import Header from '../../components/Header';
+import ProductCard from '../../components/ProductCard';
+import StateView from '../../components/StateView';
+import { useProducts } from '../../hooks/useProducts';
+import { colors } from '../../theme';
 
 export default function ProductListScreen() {
   const navigation = useNavigation();

@@ -1,10 +1,10 @@
 import { useNavigation } from '@react-navigation/native';
 import { FlatList, Pressable, StyleSheet, Text, View } from 'react-native';
-import Header from '../components/Header';
-import ProductCard from '../components/ProductCard';
-import StateView from '../components/StateView';
-import { useFavoritesStore } from '../store/favoritesStore';
-import { colors } from '../theme';
+import Header from '../../components/Header';
+import ProductCard from '../../components/ProductCard';
+import StateView from '../../components/StateView';
+import { useFavoritesStore } from '../../store/favoritesStore';
+import { colors } from '../../theme';
 
 export default function FavoritesScreen() {
   const navigation = useNavigation();
